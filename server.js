@@ -18,7 +18,7 @@ const equiposRoutes = require("./routes/equipos");
 app.use("/api/auth", authRoutes);
 app.use("/api/tecnico", tecnicoRoutes);
 app.use('/api/equipos', require('./routes/equipos'));
-=======
+
 const tecnicoRoutes = require("./routes/tecnico")
 const empleadoRoutes = require("./routes/empleados");
 //Usar rutas
